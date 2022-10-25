@@ -1,4 +1,4 @@
-let array = [2, 3, 1, 2, 1];
+let array = [2, 5, 1, 5, 1];
 
 let somma = 0;
 let posizioneArray = 0;
