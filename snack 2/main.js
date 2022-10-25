@@ -1,6 +1,6 @@
 let nomi = ["pippo", "pluto", "minni", "paperino"];
 
-let cognomi = ["baudo", "leonardi", "rusu", "ramos"];
+let cognomi = ["Baudo", "Leonardi", "Rusu", "Ramos"];
 
 let falseList = [];
 
@@ -12,7 +12,7 @@ function generaInvitato() {
     console.log(numero2)
 
 
-    falseList.push(nomi[numero1]+""+cognomi[numero2]);
+    falseList.push(nomi[numero1]+cognomi[numero2]);
     console.log(falseList)
 
     document.getElementById("invitato").innerHTML=`<div>${falseList}</div>`;
