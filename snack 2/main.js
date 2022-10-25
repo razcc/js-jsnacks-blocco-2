@@ -1,0 +1,17 @@
+let nomi = ["pippo", "pluto", "minni", "paperino"];
+
+let cognomi = ["baudo", "leonardi", "rusu", "ramos"];
+
+let falseList = [];
+
+function generaInvitato() {
+    let numero1 = Math.floor(Math.random() * nomi.length)
+    console.log(numero1)
+    
+    let numero2 = Math.floor(Math.random() * cognomi.length)
+    console.log(numero2)
+
+
+    falseList.push(nomi[numero1]+cognomi[numero2]);
+    console.log(falseList)
+}
