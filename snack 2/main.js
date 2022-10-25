@@ -12,6 +12,8 @@ function generaInvitato() {
     console.log(numero2)
 
 
-    falseList.push(nomi[numero1]+cognomi[numero2]);
+    falseList.push(nomi[numero1]+""+cognomi[numero2]);
     console.log(falseList)
+
+    document.getElementById("invitato").innerHTML=`<div>${falseList}</div>`;
 }
